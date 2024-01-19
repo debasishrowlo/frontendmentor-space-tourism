@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-    @apply text-black;
+    @apply text-black font-sans;
 }
 
 @tailwind components;
