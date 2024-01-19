@@ -4,7 +4,10 @@ import "./index.css"
 
 const App = () => {
   return (
-    <div>Space Tourism</div>
+    <div>
+      <p className="font-serif">Space Tourism</p>
+      <p className="font-sans">Space Tourism</p>
+    </div>
   )
 }
 

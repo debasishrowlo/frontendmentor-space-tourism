@@ -50,30 +50,17 @@ module.exports = {
   theme: {
     extend: {
       borderRadius: generateBorderRadius(),
-      colors: {
-        "red": "#F87070",
-        "lightblue": "#70F3F8",
-        "purple": "#D881F8",
-        "gray": {
-          100: "#EFF1FA",
-          200: "#D7E0FF",
-        },
-        "blue": {
-          100: "#1E213F",
-          200: "#161932",
-        },
-      },
       fontFamily: {
-        "sans": ['Kumbh Sans', ...defaultTheme.fontFamily.sans],
-        "serif": ['Roboto Slab', ...defaultTheme.fontFamily.serif],
-        "mono": ['Space Mono', ...defaultTheme.fontFamily.mono],
+        "sans": ['Barlow Condensed', ...defaultTheme.fontFamily.sans],
+        "serif": ['Bellefair', ...defaultTheme.fontFamily.serif],
+      },
+      colors: {
+        "black": "#0B0D17",
+        "blue": "#D0D6F9",
+        "white": "#FFFFFF",
       },
       fontSize: generateFontSize(),
-      spacing: {
-        4.5: pxToRemString(18),
-        6.5: pxToRemString(38),
-        25: pxToRemString(100),
-      },
+      spacing: {},
       transitionDuration: { "DEFAULT": "300ms" }
     },
   },
